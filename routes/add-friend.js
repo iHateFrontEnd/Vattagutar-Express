@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const users = require('../../users.json');
 const { MongoClient } = require('mongodb');
 require('dotenv').config();
+
 //f refers to friend
 async function addFriend(res, userIndex, username, fUsername) {
     const uri = process.env.DB_URL;
