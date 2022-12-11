@@ -1,0 +1,20 @@
+{
+    "dmChatLayout": {
+        "permittedUsers": [],
+        "chat": []
+    },
+    "userLayout": {
+        "username": "",
+        "password": "",
+        "friends": [],
+        "groups": [],
+        "incomingRequests": [],
+        "sentRequests": []
+    },
+    "groupChatLayout": {
+        "groupName": "",
+        "permittedUsers": [],
+        "requestedUsers": [],
+        "chat": []
+    }
+}
