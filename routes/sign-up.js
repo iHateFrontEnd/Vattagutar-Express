@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { MongoClient } = require('mongodb');
-require('dotenv').config(); const configFile = require('../../config.json');
+require('dotenv').config(); const configFile = require('../config.json');
 
 async function createUser(username, password) {
     const uri = process.env.DB_URL;
