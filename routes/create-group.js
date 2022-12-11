@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const configFile = require('../../config.json');
+const configFile = require('../config.json');
 const { MongoClient } = require('mongodb');
 require('dotenv').config();
 async function createGroup(username, groupName, res) {
